@@ -74,7 +74,7 @@ Entre no nosso canal : https://telegram.me/Fakesofc
 @bot.message_handler(commands=['link'])
 def link_command(message):
     chat_id = message.chat.id
-    bot.send_message(chat_id, " 😃 Este e o Link do Bot http://telegram.me/JuliaRobot")
+    bot.send_message(chat_id, " 😃 Este e o Link do Bot http://telegram.me/Amanda_Robot")
 
 ###### Dono#####
 @bot.message_handler(commands=['dono'])
