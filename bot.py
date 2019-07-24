@@ -97,7 +97,7 @@ Entre no nosso canal : https://telegram.me/Fakesofc
     ######calificar
     
 @bot.message_handler(commands=['calificar'])
-def calific(m):
+def calific_command(m):
     chat_id = message.chat.id
     bot.reply_to(chat_id, " Command Off-line! ")
 
