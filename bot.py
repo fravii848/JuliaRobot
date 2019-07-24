@@ -153,7 +153,7 @@ def mais_Bots(message):
 
       #####Lixo##"
       
- @bot.message_handler(commands=["lixomentro"])
+@bot.message_handler(commands=["lixomentro"])
 def lixo(m):
 	if m.text == '/lixomentro' or m.text == '/lixomentro@JuliaRobot ':
 		list = ["Lixo (a) "]
