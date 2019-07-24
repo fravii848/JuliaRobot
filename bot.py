@@ -92,14 +92,14 @@ Entre no nosso canal : https://telegram.me/Fakesofc
    ####Link####
    
 @bot.message_handler(commands=['link'])
-def link_command(message):
+def link_command(m):
     chat_id = message.chat.id
     bot.reply_to(chat_id, " 😃 Este e o Link do Bot http://telegram.me/Amanda_Robot")
     
     ######calificar
     
     @bot.message_handler(commands=['calificar'])
-def calificaUe(message):
+def califica_command(me):
     chat_id = message.chat.id
     bot.reply_to(chat_id, " Command Off-line! ")
 
