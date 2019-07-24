@@ -100,7 +100,7 @@ def link_command(message):
     
     ######calificar
     
-    @bot.message_handler(commands=['calificar'])
+@bot.message_handler(commands=['calificar'])
 def calific(m):
     chat_id = message.chat.id
     bot.reply_to(chat_id, " Command Off-line! ")
