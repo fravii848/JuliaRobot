@@ -94,7 +94,7 @@ Entre no nosso canal : https://telegram.me/Fakesofc
    ####Link####
    
 @bot.message_handler(commands=['link'])
-def link_command(m):
+def send_link(m):
     chat_id = message.chat.id
     bot.reply_to(chat_id, " 😃 Este e o Link do Bot http://telegram.me/Amanda_Robot")
     
