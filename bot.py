@@ -58,7 +58,7 @@ def canal_command(m):
 #####
 
 @bot.message_handler(commands=['help'])
-def send_help(message):
+def help(m):
     chat_id = message.chat.id
     bot.reply_to(chat_id, u"""\
 💞 Olá ! {} 
@@ -89,7 +89,7 @@ OUTRO BOT CRIADO COM MESMA API DA JULIA ROBOT
 @AMANDA_ROBOT 
 
 Entre no nosso canal : https://telegram.me/Fakesofc
-""".format(m.from_user.first_name), parse_mode='Markdown')
+"""
     
    ####Link####
    
