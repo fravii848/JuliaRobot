@@ -58,10 +58,10 @@ def canal_command(m):
 #####
 
 @bot.message_handler(commands=['help'])
-def help(m):
+def hel_command(m):
     chat_id = message.chat.id
     bot.reply_to(chat_id, u"""\
-💞 Olá ! {} 
+💞 Olá ! 
 Para receber uma Frase você pode enviar o comando /frase
 
 Terei prazer em ajudar você
@@ -94,7 +94,7 @@ Entre no nosso canal : https://telegram.me/Fakesofc
    ####Link####
    
 @bot.message_handler(commands=['link'])
-def link_command(message):
+def link_command(m):
     chat_id = message.chat.id
     bot.reply_to(chat_id, " 😃 Este e o Link do Bot http://telegram.me/Amanda_Robot")
     
@@ -108,7 +108,7 @@ def calific(m):
 ###Atualizaçao###
 
 @bot.message_handler(commands=['novidades'])
-def updates_txt(message):
+def updates_txt(m):
     chat_id = message.chat.id
     bot.reply_to(chat_id, " 😃  | Oque a De Novo? \n\n 😻 |  /cheiro Veja o Quanto voce esta Cheirando Hoje \n\n 💞 | /delicia Veja o Quanto o Bot ti acha Deliciosa (a) \n\n 💎 | /mais  Veja Novos Bots ")
 
@@ -137,14 +137,14 @@ def cheiro(m):
 
 ###### Dono#####
 @bot.message_handler(commands=['dono'])
-def dono_command(message):
+def dono_command(m):
     chat_id = message.chat.id
     bot.reply_to(chat_id, " Canal do Criador @Fraviiu ")
     
     ###MaisBots###
     
 @bot.message_handler(commands=['mais'])
-def mais_Bots(message):
+def mais_Bots(m):
     chat_id = message.chat.id
     bot.reply_to(chat_id, " 😻 | Aqui Estar Meus Projetos👇\n\n 💎 | https://t.me/Stickerdownrobot  -  *Com Esse Bot Você Mesmo Pode Estar Baixando Packs ou Unidades de Stickers*\n\n ♦ | https://t.me/FravinBot  -  *Com esse Bot Vai Ajuda Você a Gerenciar o Seu Supergroup e Dando-lhes Boas Vindas ao Grupo*\n\n🌸 | https://t.me/Amanda_Robot  -  *Amanda Ira Manda Lindas Frases ao seu Supergroup*\n\n💌 | *Forma Suas Mensagens em Links*\n\n 🌝 | https://t.me/SkSharedBot  -  *Com Esse Bot Voce Ira Divulgar Seu Canal / grupo Gratis Sem Precisa add em seu Canal ou Grupo*")
 
@@ -176,7 +176,7 @@ def sugerir(m):
 		#####ctt
 		
 @bot.message_handler(commands=['contacto'])
-def contacto(message):
+def contacto(m):
     chat_id = message.chat.id
     bot.reply_to(chat_id, " Entra em Contato com o Criador : @Fraviin")
     
