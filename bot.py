@@ -42,11 +42,7 @@ def gen_markup():
     markup = types.InlineKeyboardMarkup()
     markup.add(types.InlineKeyboardButton('💞 | Canal Official',
                                           url='https://telegram.me/Fakesofc'))
-   markup.add(types.InlineKeyboardButton('🌝 | Canal do Criador',
-                                          url='https://telegram.me/Fraviiu')) 
-   markup.add(types.InlineKeyboardButton('▶ | Sad Station',
-                                          url='https://telegram.me/Sad_Station'))
-
+                                         
     return markup
 
 
