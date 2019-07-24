@@ -98,7 +98,7 @@ def link_command(m):
     
     ######calificar
     
-    @bot.message_handler(commands=['calificar'])
+@bot.message_handler(commands=['calificar'])
 def califica_command(me):
     chat_id = message.chat.id
     bot.reply_to(chat_id, " Command Off-line! ")
@@ -141,7 +141,7 @@ def dono_command(message):
     
     ###MaisBots###
     
- @bot.message_handler(commands=['mais'])
+@bot.message_handler(commands=['mais'])
 def mais_Bots(message):
     chat_id = message.chat.id
     bot.reply_to(chat_id, " 😻 | Aqui Estar Meus Projetos👇\n\n 💎 | https://t.me/Stickerdownrobot  -  *Com Esse Bot Você Mesmo Pode Estar Baixando Packs ou Unidades de Stickers*\n\n ♦ | https://t.me/FravinBot  -  *Com esse Bot Vai Ajuda Você a Gerenciar o Seu Supergroup e Dando-lhes Boas Vindas ao Grupo*\n\n🌸 | https://t.me/Amanda_Robot  -  *Amanda Ira Manda Lindas Frases ao seu Supergroup*\n\n💌 | *Forma Suas Mensagens em Links*\n\n 🌝 | https://t.me/SkSharedBot  -  *Com Esse Bot Voce Ira Divulgar Seu Canal / grupo Gratis Sem Precisa add em seu Canal ou Grupo*")
@@ -173,7 +173,7 @@ def canais(me):
       
       #####Lixo##"
       
- @bot.message_handler(commands=["lixomentro"])
+@bot.message_handler(commands=["lixomentro"])
 def lixo(m):
 	if m.text == '/lixomentro' or m.text == '/lixomentro@JuliaRobot ':
 		list = ["Lixo (a) "]
