@@ -148,27 +148,7 @@ def mais_Bots(message):
 
 ######canais###
     
-    def gen_markup():
-    markup = types.InlineKeyboardMarkup()
-    markup.add(types.InlineKeyboardButton('▶ | Sad Station',
-                                          url='https://telegram.me/Sad_Station'))
-    markup.add(types.InlineKeyboardButton('💎 | Amador 69',
-                                          url='https://telegram.me/amador69'))                        
-    markup.add(types.InlineKeyboardButton('♦ | Tumblr',
-                                          url='https://telegram.me/fakesofc'))
-    markup.add(types.InlineKeyboardButton('🌝 | Canal do Criador',
-                                          url='https://telegram.me/Fraviiu')) 
-    markup.add(types.InlineKeyboardButton('💞 | Canal Official',
-                                          url='https://telegram.me/FrasesJuliaRobot'))
-                                          
-    return markup
 
-
-@bot.message_handler(commands=['canal'])
-def canais(me):
-    bot.reply_to(m,
-                    'Canais Official do Bot💎',
-                    reply_markup=gen_markup())
                     
       
       #####Lixo##"
