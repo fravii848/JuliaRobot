@@ -89,7 +89,7 @@ Entre no nosso canal : https://telegram.me/Fakesofc
 ###Atualizaçao###
 
 @bot.message_handler(commands=['novidades'])
-def updates_txt(m):
+def novidades(m):
     chat_id = message.chat.id
     bot.reply_to(chat_id, " 😃  | Oque a De Novo? \n\n 😻 |  /cheiro Veja o Quanto voce esta Cheirando Hoje \n\n 💞 | /delicia Veja o Quanto o Bot ti acha Deliciosa (a) \n\n 💎 | /mais  Veja Novos Bots ")
 
