@@ -49,7 +49,7 @@ def gen_markup():
 
 
 @bot.message_handler(commands=['start'])
-def canal_command(me):
+def canal_command(m):
     bot.reply_to(m,
                     '🙊 | Este Bot Foi Criador Por : @Fraviin \n\n✅| Canal Do Bot Official : @Fakesofc\n\nUser o Command /help\n\n 👇Meus Canais oficiais👇',
                     reply_markup=gen_markup())
