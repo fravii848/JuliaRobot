@@ -6,7 +6,7 @@ from telebot import types
 from random import randint, choice
 
 bot = telebot.TeleBot("893774031:AAGl0ZYo7v868yF1sMKqusFccQE63voXclc")
-User_bot("@JuliaRobot ") 
+
 
 @bot.message_handler(commands=["frase"])
 def frase_command(m):
